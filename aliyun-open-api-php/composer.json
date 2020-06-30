@@ -1,12 +1,12 @@
 {
-    "name": "zyp/aliyun-openapi-php",
+    "name": "ChinaPhpZyp/ali-open-sdk-api-fix-curl",
     "description":"Aliyun php openapi fix httpHelper curl error",
     "type": "library",
     "time": "2020-6-30",
-    "authors":{
+    "authors":[{
         "name": "ZhangYiping",
         "email": "13757124196@163.com"
-    }, 
+    }], 
     "autoload":{
         "psr-4":{
             "Aliyun\\Core\\":"src/core",
