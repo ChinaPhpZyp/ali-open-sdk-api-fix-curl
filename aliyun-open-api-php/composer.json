@@ -1,0 +1,25 @@
+{
+    "name": "zyp/aliyun-openapi-php",
+    "description":"Aliyun php openapi fix httpHelper curl error",
+    "type": "library",
+    "time": "2020-6-30",
+    "authors":{
+        "name": "ZhangYiping",
+        "email": "13757124196@163.com"
+    }, 
+    "autoload":{
+        "psr-4":{
+            "Aliyun\\Core\\":"src/core",
+            "Aliyun\\Api\\":"src/api"
+        }
+    },
+    "require-dev":{
+        "phpunit/phpunit":"^6.5"
+
+    },
+    "require":{
+
+        "ext-json":"*",
+        "ext-simplexml":"*"
+    }
+}
